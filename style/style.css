@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #2b2a2a;
+}
+.cabecalho{   
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+.cabecalho:hover{
+    background: linear-gradient(to right, #fafafc, #222220, #f478f6,#f416f4);
+    font-style: italic;       
+}
+.cabecalho_texto{
+    color: #fff;
+}
+.cabecalho_texto:hover{
+    font-size: 36px;
+    background: -webkit-linear-gradient( #333,#dec6c6,#333,#f416f4);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+  }
+  
+  .social-icons a {
+    margin-left: 10px;
+    border: 2px solid #f416f4;
+    border-radius:10% 50% 10% 50% / 50% 10% 50% 10% ;
+    padding: 10px;
+  }
+  .social-icons a:hover{
+    border: 2px solid #fff;
+    border-radius:50% 10% 50% 10% / 10% 50% 10% 50% ;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+.link_redes_rodape{
+    color:#fff;
+   text-decoration: none;
+}
+.link_redes_rodape:hover{
+    color: #fff;
+    font-style: italic;
+    background: linear-gradient(to right, #fafafc, #222220, #f478f6,#f416f4);
+  
+} 
+.texto_rodape{
+   color: #fff; 
+   font-style: italic;
+   padding: 5px;
+   
+}
+.texto_rodape:hover{
+    color:#f416f4; 
+    font-size: 18px;   
+}
