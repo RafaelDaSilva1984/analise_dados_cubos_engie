@@ -22,6 +22,32 @@ body{
     background: -webkit-linear-gradient( #333,#dec6c6,#333,#f416f4);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
+    background-clip: none;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.container_div_subtitulo_conteudoh2{
+display: flex;
+justify-content: start;
+color: rgb(110, 113, 113);
+font-size: 32px;
+padding:40px;
+}
+.container_div_subtitulo_conteudo_materiah3{
+display: flex;
+justify-content: center;
+background: -webkit-linear-gradient( #333,#ff2ff8,#333,#f416f4);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+background-clip: none;
+font-size: 30px;
+}
+.images_container{
+padding: 15px;
+
 }
 footer {
     background-color: #333;
