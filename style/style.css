@@ -19,7 +19,7 @@ body{
 }
 .cabecalho_texto:hover{
     font-size: 36px;
-    background: -webkit-linear-gradient( #333,#dec6c6,#333,#f416f4);
+    background: -webkit-linear-gradient( #333,#dec6c6,#f9b4b4,#f416f4);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
     background-clip: none;
@@ -39,7 +39,7 @@ padding:40px;
 .container_div_subtitulo_conteudo_materiah3{
 display: flex;
 justify-content: center;
-background: -webkit-linear-gradient( #333,#ff2ff8,#333,#f416f4);
+background: -webkit-linear-gradient( #333,#ff2ff8,#eae8e8,#f416f4);
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
 background-clip: none;
