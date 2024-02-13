@@ -46,7 +46,9 @@ background-clip: none;
 font-size: 30px;
 }
 .images_container{
-padding: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 
 }
 footer {
